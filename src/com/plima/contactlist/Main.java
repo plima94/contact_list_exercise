@@ -98,7 +98,6 @@ public class Main {
                          ArrayList<Message> newMessages = c.getMessages();
                          //then we add the new message to newMessages ArrayList
                          newMessages.add(newMessage);
-                         //Save the current contact we are now
                          c.setMessages(newMessages);
                        }
                    }
